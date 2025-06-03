@@ -11,7 +11,7 @@ def load_data():
 df = load_data()
 
 # App title
-st.title("Car MSRP Visualization by Make and Type")
+st.title("Steve's Cars Analysis")
 
 # Sidebar selections
 make = st.sidebar.selectbox("Select Car Make", sorted(df.Make.unique()))
